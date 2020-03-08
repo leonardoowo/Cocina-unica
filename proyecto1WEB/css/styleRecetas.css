@@ -1,0 +1,116 @@
+body{
+	background-color: orange;
+	text-align: center;
+	/* height: 100px;  */
+}
+
+.food-c-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(auto, auto);
+}
+
+.food-c-div__logo img{
+    width: 6vw;
+    height: 6vw;
+    grid-column: 1;
+    grid-row: 1;
+    float: left;
+}
+
+.food-c-div__header{
+    color: blue;
+	font-size: 6vw;
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+.food-c-div__title{
+    color: white;
+    text-align: center;
+	font-size: 4vw;
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+.food-c-div__recetas{
+    color: whitesmoke;
+    text-align: initial;
+	font-size: 3vw;
+    grid-column: 2/4;
+    grid-row: 3;
+}
+
+.food-c-div__alimento{
+    color: whitesmoke;
+    font-size: 1.5vw;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.food-c-div__alimento img{
+    width: 28vw;
+    height: 40vh;
+}
+
+.food-c-div__ingredientes{
+    color: black;
+    font-size: 1.3vw;
+    text-align: left;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.food-c-div__pasos{
+    color: black;
+    font-size: 1.3vw;
+    text-align: left;
+    grid-column: 2/4;
+    grid-row: 5;
+}
+
+.food-c-div__pasos img{
+    width: 28vw;
+    height: 40vh;
+}
+
+.food-c-div-bodyIzquierdo{
+    grid-column: 1 ;
+    grid-row: 3/7;
+}
+
+.food-c-div-bodyIzquierdo img{
+    width: 20vw;
+    height: 80vh;
+}
+
+.food-c-div-bodyDerecho{
+    grid-column: 4;
+    grid-row: 3/7;
+    width: 100%;
+    height: 100%;
+}
+.food-c-div-bodyDerecho img{
+    width: 20vw;
+    height: 80vh;
+}
+
+.doof-c-div__regreso{
+    color: teal;
+    font-size:1.3vw;
+    text-align: center;
+    grid-column: 2/4;
+    grid-row: 6;
+}
+
+.food-c-div-foot{
+    color: white;
+    font-size: 1.2vw;
+    background-color: red; 
+	padding: 20px;
+	margin: 20px;
+    grid-column: 1/5;
+    grid-row: 7;
+}
